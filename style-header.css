@@ -1,6 +1,7 @@
 .box-como-usar{
     display: grid;
     align-items: center;
+    margin-left: -200px;
 }
 
 div a {
@@ -19,7 +20,6 @@ ul {
   padding: 0;
 }
 ul li {display: inline-block;}
-ul li:hover {background: #FFBD59;}
 ul li:hover ul {display: block;}
 ul li ul {
   position: absolute;
@@ -35,7 +35,7 @@ ul li ul li:hover {background: #FF914D;}
 
 .ico-cadeado{
     margin-top: 25px;
-    margin-right: -230px;
+    margin-right: -120px;
 }
 
 #span-abra-conta{
