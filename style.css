@@ -64,7 +64,6 @@ footer {
 */
 #contato {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     padding: 50px 100px;
 }
@@ -121,6 +120,20 @@ footer {
 *
 */
 @media screen and (max-width: 1000px){
+    #redes-sociais{
+        flex-direction: column;
+        padding: 0px;
+    }
+    #contato{
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+    }
+    #contato h5{
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
     .circle-small {
         display: none;
     }
