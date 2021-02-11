@@ -6,6 +6,51 @@
 
 /*
 
+    Sessão de taxa 0
+
+*/
+.circle-small {
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FF914D;
+    bottom: 170px;
+    z-index: -1;
+}
+.circle-large {
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #FF914D;
+    top: 100px;
+    left: 400px;
+    z-index: -1;
+}
+#taxas {
+    position: relative;
+    box-sizing: border-box;
+    height: 80vh;
+    padding: 100px;
+    background-image: url('./img/money-grow.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+#taxas h2 {
+    color: #FF914D;
+    font-size: 50px;
+}
+#taxas p {
+    width: 600px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+/*
+
     Footer
 
 */
