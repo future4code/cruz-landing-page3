@@ -116,7 +116,7 @@ footer {
 
 /*
 *
-*   Resposividade < 1000px
+*   Responsividade < 1000px
 *
 */
 @media screen and (max-width: 1000px){
@@ -142,7 +142,7 @@ footer {
     }
     #taxas {
         text-align: center;
-        padding: 0;
+        padding: 20px;
         height: 60vh;
         background-image: none;
         display: flex;
@@ -161,7 +161,7 @@ footer {
 
 /*
 *
-*   Resposividade < 650px
+*   Responsividade < 650px
 *
 */
 @media screen and (max-width: 650px){
