@@ -1,7 +1,7 @@
 .box-como-usar{
     display: grid;
     align-items: center;
-    margin-left: -200px;
+    margin-left: -100px;
 }
 
 div a {
@@ -14,11 +14,13 @@ div a {
   text-align: center;
   justify-content: center;
 }
+
 ul {
   display: inline;
   margin: 0;
   padding: 0;
 }
+
 ul li {display: inline-block;}
 ul li:hover ul {display: block;}
 ul li ul {
@@ -26,16 +28,18 @@ ul li ul {
   width: 200px;
   display: none;
 }
+
 ul li ul li { 
   background: #FFBD59; 
   display: block; 
 }
+
 ul li ul li a {display:block !important;} 
 ul li ul li:hover {background: #FF914D;}
 
 .ico-cadeado{
     margin-top: 25px;
-    margin-right: -120px;
+    margin-right: -90px;
 }
 
 #span-abra-conta{
