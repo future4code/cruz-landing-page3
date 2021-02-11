@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*
+
+    Footer
+
+*/
+footer {
+    background-color: #202020;
+    color: white;
+}
+/*
+    Container do contato
+*/
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+#contato h5{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#contato li{
+    margin: 10px;
+    font-size: 20px;
+}
+#contato li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+/*
+    Container das redes socias
+*/
+#redes-sociais{
+    display: flex;
+    padding: 20px 200px;
+    justify-content: space-around;
+    text-align: center;
+}
+#redes-sociais h5 {
+    font-size: 25px;
+    padding: 25px;
+}
+#redes-sociais img {
+    height: 40px;
+    margin: 5px;
+}
+/*
+    Container dos créditos
+*/
+#creditos{
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px 10px 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#creditos span{
+    color: red;
+    margin: 0px 5px;
+}
