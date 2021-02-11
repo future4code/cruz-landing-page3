@@ -1,6 +1,10 @@
 .box-como-usar{
     display: grid;
     align-items: center;
+    margin-left: -200px;
+}
+.ico-cadeado{
+  margin-left: -120px;
 }
 
 div a {
