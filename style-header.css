@@ -3,8 +3,13 @@
     align-items: center;
     margin-left: -200px;
 }
+<<<<<<< HEAD
 .ico-cadeado {
     margin-left: -120px;
+=======
+.ico-cadeado{
+  margin-left: -120px;
+>>>>>>> 12e6aea0402a4c2da43705d90e463766bd71e512
 }
 
 div a {
