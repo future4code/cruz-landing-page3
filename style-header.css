@@ -19,6 +19,7 @@ ul {
   display: inline;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 ul li {display: inline-block;}
