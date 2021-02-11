@@ -79,6 +79,9 @@ footer {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
 }
+#contato li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
 /*
     Container das redes socias
 */
