@@ -1,25 +1,18 @@
-main {
-    background-color: #FF914D;
-    height: 100vh;
-    width: 100vw;
-}
 
 .titulo-conta {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
 }
 
 form {
     margin: 0 auto;
-    color: white;
     width: 400px;
     padding: 1em;
     border: 2px solid white;
     border-radius: 1em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
 }
 
 form div + div {
@@ -51,13 +44,41 @@ textarea {
     resize: vertical;
 }
 
-.button {
+.btn-form {
     padding-left: 150px; 
-}
-button {
-    margin-left: .5em;
+    margin-left: .5em; 
     cursor: pointer;
     border-radius: 10px;
-    width: 100px;
-    background-color: #fcd6be;
+    /* width: 100px; */
+    /* background-color: #fcd6be; */
 }
+
+#container {
+    align-items: stretch;
+    justify-items: stretch;
+    grid-template-columns: 1fr 1fr;
+    grid-row-start: 4;
+    grid-row-end: span 3;
+    grid-column-end: span 3;
+    border: none;
+    padding: 0;
+    padding: 0 10px;
+    display: grid;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 20px;
+}
+
+.titulo-conta {
+    background-color: #FF914D;
+    color: white;
+}
+.form-conta{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid #FF914D; */
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
