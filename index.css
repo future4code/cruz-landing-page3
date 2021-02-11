@@ -45,13 +45,31 @@
 }
 
 #container .btn-form {
-    padding-left: 150px; 
-    margin-left: .5em; 
+    padding-left: 140px; 
     cursor: pointer;
     border-radius: 10px;
-    /* width: 100px; */
-    /* background-color: #fcd6be; */
+    
 }
+
+#container button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    height: 5px;
+    line-height: 5px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 50px;
+    padding: 17px;
+    background-color: #FF914D;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
 
 #container {
     align-items: stretch;
@@ -64,8 +82,8 @@
     padding: 0;
     padding: 0 10px;
     display: grid;
-    row-gap: 15px;
-    column-gap: 15px;
+    row-gap: 10px;
+    column-gap: 10px;
     margin: 20px;
 }
 
