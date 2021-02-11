@@ -49,10 +49,18 @@ ul li ul li:hover {background: #FF914D;}
     margin-right: -90px;
 }
 
-#span-abra-conta{
+#span-abra-conta {
     margin-top: 29px;
-    color:white;
     margin-right: -50px;
+}
+
+#span-abra-conta a{
+    color:white;
+    text-decoration: none;
+}
+
+#span-abra-conta a:hover{
+    color: #FFBD59;
 }
 
 .botoes-header{
@@ -108,7 +116,7 @@ input[type=number], [type=password] {
     border-radius: 4px;
     background-color: #FF914D;
     border: none;
-    color: #FFFFFF;
+    color: white;
     text-align: center;
     font-size: 28px;
     padding: 20px;
@@ -181,4 +189,13 @@ padding-right: 20px;
 #como-usar:hover span:after {
 opacity: 1;
 right: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 150px;
 }
