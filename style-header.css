@@ -1,0 +1,93 @@
+.box-como-usar{
+    display: grid;
+    align-items: center;
+}
+
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #FFBD59;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #FFBD59; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #FF914D;}
+
+.ico-cadeado{
+    margin-top: 25px;
+    margin-right: -230px;
+}
+
+#span-abra-conta{
+    margin-top: 29px;
+    color:white;
+    margin-right: -195px;
+}
+
+.botoes-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    text-align:center;
+    color: white;
+}
+
+.button{
+    background-color: #FFBD59;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    margin-top: -7px;
+    cursor: pointer;
+}
+.botao-entrar-header {
+    background-color: #FF914D; 
+    color: white; 
+    border: 2px solid #FFBD59;
+  }
+  
+.botao-entrar-header:hover {
+    background-color: #eed7c5;
+    color: #FFBD59;
+}
+
+header {
+    display: flex;
+    background: #FF914D;
+    justify-content: space-between;
+    padding: 0;
+}
+
+input[type=number], [type=password] {
+    width: 15%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #FFBD59;
+    background-color: #FF914D;
+}
