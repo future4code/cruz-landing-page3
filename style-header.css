@@ -1,13 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
 .box-como-usar{
     display: grid;
     align-items: center;
-    margin-left: -200px;
-}
-.ico-cadeado {
-    margin-left: -120px;
+    margin-left: -100px;
 }
 
-div a {
+header div a {
   text-decoration: none;
   color: white;
   font-size: 15px;
@@ -17,35 +20,39 @@ div a {
   text-align: center;
   justify-content: center;
 }
+
 ul {
   display: inline;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
+
 ul li {display: inline-block;}
-ul li:hover {background: #FFBD59;}
 ul li:hover ul {display: block;}
 ul li ul {
   position: absolute;
   width: 200px;
   display: none;
 }
+
 ul li ul li { 
   background: #FFBD59; 
   display: block; 
 }
+
 ul li ul li a {display:block !important;} 
 ul li ul li:hover {background: #FF914D;}
 
 .ico-cadeado{
     margin-top: 25px;
-    margin-right: -230px;
+    margin-right: -90px;
 }
 
 #span-abra-conta{
     margin-top: 29px;
     color:white;
-    margin-right: -195px;
+    margin-right: -50px;
 }
 
 .botoes-header{
@@ -94,4 +101,84 @@ input[type=number], [type=password] {
     border: none;
     border-bottom: 2px solid #FFBD59;
     background-color: #FF914D;
+}
+
+#home-header {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FF914D;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+#home-header span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+#home-header span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+#home-header:hover span {
+padding-right: 25px;
+}
+
+#home-header:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+#como-usar {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FF914D;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+#como-usar span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+#como-usar span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+#como-usar:hover span {
+padding-right: 20px;
+}
+
+#como-usar:hover span:after {
+opacity: 1;
+right: 0;
 }

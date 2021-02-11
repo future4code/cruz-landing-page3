@@ -37,6 +37,7 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+    z-index: -2;
 }
 #taxas h2 {
     color: #FF914D;
@@ -79,9 +80,13 @@ footer {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
 }
+#contato li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
 /*
     Container das redes socias
 */
+
 #redes-sociais{
     display: flex;
     padding: 20px 200px;
@@ -108,4 +113,52 @@ footer {
 #creditos span{
     color: red;
     margin: 0px 5px;
+}
+
+/*
+*
+*   Resposividade < 1000px
+*
+*/
+@media screen and (max-width: 1000px){
+    .circle-small {
+        display: none;
+    }
+    .circle-large {
+        display: none;
+    }
+    #taxas {
+        text-align: center;
+        padding: 0;
+        height: 60vh;
+        background-image: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #taxas h2 {
+        padding: 50px;
+        font-size: 40px;
+    }
+    #taxas p {
+        font-size: 30px;
+    }
+}
+
+/*
+*
+*   Resposividade < 650px
+*
+*/
+@media screen and (max-width: 650px){
+    #taxas h2 {
+        padding: 25px;
+        font-size: 20px;
+    }
+    #taxas p {
+        width: 100%;
+        font-size: 15px;
+        margin: 0px;
+    }
 }
