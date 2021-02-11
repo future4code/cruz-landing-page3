@@ -127,6 +127,7 @@ footer {
     #contato{
         flex-direction: column;
         padding: 0px;
+        align-items: center;
     }
     #contato h5{
         font-size: 20px;
