@@ -4,10 +4,6 @@
     margin-left: -200px;
 }
 
-.ico-cadeado {
-    margin-left: -120px;
-}
-
 div a {
   text-decoration: none;
   color: white;
@@ -45,7 +41,7 @@ ul li ul li:hover {background: #FF914D;}
 #span-abra-conta{
     margin-top: 29px;
     color:white;
-    margin-right: -195px;
+    margin-right: -50px;
 }
 
 .botoes-header{
