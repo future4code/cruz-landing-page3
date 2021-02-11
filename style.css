@@ -115,6 +115,30 @@ footer {
 }
 
 /*
+
+    Sessão de taxa 0
+
+*/
+#quem-somos{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#quem-somos h2 {
+    color: #FF914D;
+    font-size: 50px;
+}
+#quem-somos p {
+    font-size: 40px;
+    line-height: 55px;
+    padding-top: 50px;
+    width: 60%;
+    text-align: center;
+}
+
+/*
 *
 *   Responsividade < 1000px
 *
