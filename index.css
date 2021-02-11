@@ -1,12 +1,12 @@
 
-.titulo-conta {
+#container .titulo-conta {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
 }
 
-form {
+#container form {
     margin: 0 auto;
     width: 400px;
     padding: 1em;
@@ -15,17 +15,17 @@ form {
     font-family: sans-serif;
 }
 
-form div + div {
+#container form div + div {
     margin-top: 1em;
 }
 
-label {
+#container label {
     display: inline-block;
     width: 90px;
     text-align: right;
 }
 
-input, textarea {
+#container input, textarea {
     font: 1em sans-serif;
     width: 300px;
     -moz-box-sizing: border-box;
@@ -34,17 +34,17 @@ input, textarea {
     border-radius: 5px;
 }
 
-input:focus, textarea:focus {
+#container input:focus, textarea:focus {
     border-color: #000;
 }
 
-textarea {
+#container textarea {
     vertical-align: top;
     height: 5em;
     resize: vertical;
 }
 
-.btn-form {
+#container .btn-form {
     padding-left: 150px; 
     margin-left: .5em; 
     cursor: pointer;
@@ -69,11 +69,11 @@ textarea {
     margin: 20px;
 }
 
-.titulo-conta {
+#container .titulo-conta {
     background-color: #FF914D;
     color: white;
 }
-.form-conta{
+#container .form-conta{
     display: grid;
     align-items: center;
     justify-items: center;
