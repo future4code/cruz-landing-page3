@@ -5,10 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style-header.css">
+    <title>F4Bank</title>
 </head>
 <body>
-    <section id="taxas">
+    <header>
+        <img src="logo-f4bank.png" class="img-header" alt="Imagem" width="150" height="75">
+        <div class="box-como-usar">
+            <ul>
+                <li>
+                <a href="#">COMO USAR</a>
+                <ul>
+                    <li><a href="#">Como Acessar sua Conta</a></li>
+                    <li><a href="#">Senhas e Chaves de Segurança</a></li>
+                    <li><a href="#">Chat Internet Banking</a></li>
+                    <li><a href="#">Navegador Exclusivo F4 Bank</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+        <img class="ico-cadeado" src="padlock-12-xxl.png" alt="cadeado" width="17" height="20">
+        <span id="span-abra-conta">Abra Sua Conta</span>
+            <form class="botoes-header">
+                <label for="fagencia">Agência</label>
+                <input type="number" id="fagencia" name="fagencia">
+                <label for="fconta">Conta</label>
+                <input type="number" id="fconta" name="fconta">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+                <button class="button botao-entrar-header" type="submit">Entrar</button>
+            </form>
+    </header>
+  <section id="taxas">
         <h2>Sem taxas</h2>
         <p>O F4Bank oferece uma Conta Digital totalmente livre de taxas</p>
         <p>Venha economizar dinheiro com nosso banco</p>
