@@ -199,3 +199,29 @@ main{
     flex-direction: column;
     margin-top: 150px;
 }
+
+@media screen and (max-width: 650px){
+    .box-como-usar{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content:center;
+        margin-left: 20px;
+    }
+    #span-abra-conta {
+        display: none;
+        grid-column: none;
+    }
+    #header-home {
+        display: none;
+        grid-column: none;
+    }
+
+    input{
+        display: none;
+    }
+
+    .botoes-header{
+        display: none;
+    }
+}
