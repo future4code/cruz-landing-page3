@@ -8,7 +8,7 @@
 
 #container form {
     margin: 0 auto;
-    width: 400px;
+    width: 100%;
     padding: 1em;
     border: 2px solid white;
     border-radius: 1em;
@@ -82,3 +82,32 @@
     column-gap: 15px;
 }
 
+/*
+*
+*   Responsividade < 1000px
+*
+*/
+@media screen and (max-width: 1000px){
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #container .titulo-conta { 
+        height: 20vh;
+        width: 100%;
+    }
+    #container input, textarea {
+        width: 150px;
+    }
+}
+
+/*
+*
+*   Responsividade < 650px
+*
+*/
+@media screen and (max-width: 650px){
+    
+}
