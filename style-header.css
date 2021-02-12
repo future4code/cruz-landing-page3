@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    overflow-x:hidden;
 }
 
 .box-como-usar{
     display: grid;
     align-items: center;
-    margin-left: -100px;
 }
 
 header div a {
@@ -23,7 +23,7 @@ header div a {
 
 ul {
   display: inline;
-  margin: 0;
+  margin-left: -50px;
   padding: 0;
   z-index: 1;
 }
@@ -40,7 +40,9 @@ ul li ul li {
   background: #FFBD59; 
   display: block; 
 }
-
+ul li a {
+    width: 200px;
+}
 ul li ul li a {display:block !important;} 
 ul li ul li:hover {background: #FF914D;}
 
