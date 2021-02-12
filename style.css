@@ -116,11 +116,15 @@ footer {
 
 /*
 
-    Sessão de taxa 0
+    Sessão Quem somos
 
 */
+#quem-somos span {
+    color: #FF914D;
+}
 #quem-somos{
     height: 80vh;
+    padding: 50px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,6 +177,16 @@ footer {
 *
 */
 @media screen and (max-width: 1000px){
+    #quem-somos{
+        height: 60vh;
+    }
+    #quem-somos h2 {
+        font-size: 25px;
+    }
+    #quem-somos p {
+        font-size: 20px;
+        padding-top: 20px;
+    }
     #redes-sociais{
         flex-direction: column;
         padding: 0px;
@@ -218,6 +232,17 @@ footer {
 *
 */
 @media screen and (max-width: 650px){
+    #quem-somos{
+        height: 60vh;
+    }
+    #quem-somos h2 {
+        font-size: 20px;
+    }
+    #quem-somos p {
+        line-height: 25px;
+        font-size: 20px;
+        padding-top: 25px;
+    }
     #taxas h2 {
         padding: 25px;
         font-size: 20px;
@@ -226,5 +251,8 @@ footer {
         width: 100%;
         font-size: 15px;
         margin: 0px;
+    }
+    #creditos{
+        font-size: 15px;
     }
 }
