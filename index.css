@@ -47,7 +47,7 @@
 #container .btn-form {
     cursor: pointer;
     border-radius: 10px;
-    
+    margin-left: 93px;
 }
 
 #container button {
@@ -67,7 +67,7 @@
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
+}
 
 
 #container {
