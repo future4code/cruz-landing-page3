@@ -212,15 +212,16 @@ footer {
     #taxas {
         text-align: center;
         padding: 20px;
-        height: 60vh;
+        height: 70vh;
         background-image: none;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
     }
     #taxas h2 {
-        padding: 50px;
+        padding: 30px;
         font-size: 40px;
     }
     #taxas p {
@@ -239,6 +240,9 @@ footer {
     }
     #quem-somos h3 {
         font-size: 20px;
+    }
+    #taxas {
+        height: 50vh;
     }
     #taxas h2 {
         padding: 25px;
