@@ -222,7 +222,7 @@ main{
         grid-column: none;
     }
 
-    input{
+    header input{
         display: none;
     }
 
