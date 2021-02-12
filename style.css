@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: sans-serif;    
 }
 
 /*
@@ -42,12 +42,15 @@
 #taxas h2 {
     color: #FF914D;
     font-size: 50px;
+    font-family: 'Hammersmith One', sans-serif;
 }
+
 #taxas p {
     width: 600px;
     margin-bottom: 50px;
     font-size: 40px;
     line-height: 55px;
+    font-family: 'Lora', serif;
 }
 
 /*
@@ -123,23 +126,58 @@ footer {
     color: #FF914D;
 }
 #quem-somos{
-    height: 80vh;
     padding: 50px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
+
 #quem-somos h2 {
     color: #FF914D;
     font-size: 50px;
+    text-align: center;
+    margin: 10px;
 }
 #quem-somos p {
+    font-size: 15px;
+    margin: 5px;
+}
+#quem-somos h3 {
     font-size: 40px;
-    line-height: 55px;
-    padding-top: 50px;
-    width: 60%;
+    margin: 5px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+#quem-somos img {
+    border-radius: 90px;
+    height: 90px;
+    padding: 20px;
+}
+
+#comentarios div {
+    max-width: 250px;
+    margin: 35px;
+    padding: 20px;
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#quem-somos .div1 {
+    border: 1px solid #FF914D;
+    box-shadow: 8px 3px 3px grey;   
+    border-radius: 10px; 
+    align-items: center;
     text-align: center;
+}
+
+#quem-somos .div1 h3 {
+    font-size: 18px;
+    color: #FF914D;
+    padding: 10px;
 }
 
 /*
@@ -148,15 +186,8 @@ footer {
 *
 */
 @media screen and (max-width: 1000px){
-    #quem-somos{
-        height: 60vh;
-    }
     #quem-somos h2 {
         font-size: 25px;
-    }
-    #quem-somos p {
-        font-size: 20px;
-        padding-top: 20px;
     }
     #redes-sociais{
         flex-direction: column;
@@ -203,16 +234,11 @@ footer {
 *
 */
 @media screen and (max-width: 650px){
-    #quem-somos{
-        height: 60vh;
-    }
     #quem-somos h2 {
         font-size: 20px;
     }
-    #quem-somos p {
-        line-height: 25px;
+    #quem-somos h3 {
         font-size: 20px;
-        padding-top: 25px;
     }
     #taxas {
         height: 50vh;

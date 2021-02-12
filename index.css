@@ -45,10 +45,9 @@
 }
 
 #container .btn-form {
-    padding-left: 140px; 
     cursor: pointer;
     border-radius: 10px;
-    
+    margin-left: 93px;
 }
 
 #container button {
@@ -59,7 +58,7 @@
     line-height: 5px;
     color: #FFFFFF;
     font-family: sans-serif;
-    width: 200px;
+    width: 300px;
     font-size: 15px;
     font-weight: 50px;
     padding: 17px;
@@ -68,7 +67,7 @@
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
+}
 
 
 #container {
