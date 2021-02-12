@@ -181,7 +181,7 @@ footer {
     #taxas {
         text-align: center;
         padding: 20px;
-        height: 60vh;
+        height: 70vh;
         background-image: none;
         display: flex;
         align-items: center;
@@ -213,6 +213,9 @@ footer {
         line-height: 25px;
         font-size: 20px;
         padding-top: 25px;
+    }
+    #taxas {
+        height: 50vh;
     }
     #taxas h2 {
         padding: 25px;
