@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="style-header.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-header.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
     <title>F4Bank</title>
 </head>
 <body>
@@ -15,33 +21,35 @@
             <a id="home-header" style="vertical-align:middle" href="./index.html"><span>Início</span></a>
     </header>
     <main>
-        <div class="titulo-conta">
-            <h1>Abra sua Conta</h1>
+        <div id="container2">
+            <div class="titulo-conta">
+                <h1>Abra sua Conta</h1>
+            </div>    
+                <br>
+                <form action="#" method="post">
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="usuario_nome" />
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="usuario_email" />
+                    </div>
+                    <div>
+                        <label for="cpf">CPF</label>
+                        <input type="text" placeholder="000.000.000-00">
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="text" placeholder="(00)0000-0000">
+                    </div>
+                    
+                
+                    <div class="btn-conta">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
         </div>
-        <br>
-        <form action="#" method="post">
-            <div>
-                <label for="nome">Nome</label>
-                <input type="text" name="usuario_nome" />
-            </div>
-            <div>
-                <label for="email">E-mail</label>
-                <input type="email" name="usuario_email" />
-            </div>
-            <div>
-                <label for="cpf">CPF</label>
-                <input type="text" placeholder="000.000.000-00">
-            </div>
-            <div>
-                <label for="telefone">Telefone</label>
-                <input type="text" placeholder="0000-0000">
-            </div>
-            
-        
-            <div class="btn-conta">
-                <button type="submit">Enviar</button>
-            </div>
-        </form>
     </main>
     <footer>
         <div id='contato'>
