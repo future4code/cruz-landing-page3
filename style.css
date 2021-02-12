@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: sans-serif;    
 }
 
 /*
@@ -42,12 +42,15 @@
 #taxas h2 {
     color: #FF914D;
     font-size: 50px;
+    font-family: 'Hammersmith One', sans-serif;
 }
+
 #taxas p {
     width: 600px;
     margin-bottom: 50px;
     font-size: 40px;
     line-height: 55px;
+    font-family: 'Lora', serif;
 }
 
 /*
