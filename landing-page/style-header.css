@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x:hidden;
+}
+
+.box-como-usar{
+    display: grid;
+    align-items: center;
+}
+.ico-cadeado {
+    margin-left: 50px;
+}
+header > div{
+display: flex;
+align-items: center;
+}
+
+header div a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+ul {
+  display: inline;
+  padding: 0;
+  z-index: 1;
+}
+
+ul li {display: inline-block;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+
+ul li ul li { 
+  background: #FFBD59; 
+  display: block; 
+}
+ul li a {
+    width: 200px;
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #FF914D;}
+
+
+#span-abra-conta {
+    margin-right: -50px;
+}
+
+#span-abra-conta a{
+    color:white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+#span-abra-conta a:hover{
+    color: #FFBD59;
+}
+
+.botoes-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    text-align:center;
+    color: white;
+}
+
+.button{
+    background-color: #FFBD59;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    margin-top: -7px;
+    cursor: pointer;
+}
+.botao-entrar-header {
+    background-color: #FF914D; 
+    color: white; 
+    border: 2px solid #FFBD59;
+    margin-top: 1px;
+  }
+  
+.botao-entrar-header:hover {
+    background-color: #eed7c5;
+    color: #FFBD59;
+}
+
+header {
+    display: flex;
+    background: #FF914D;
+    justify-content: space-between;
+    padding: 0;
+}
+
+input[type=number], [type=password] {
+    width: 15%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #FFBD59;
+    background-color: #FF914D;
+}
+
+#home-header {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FF914D;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+#home-header span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+#home-header span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+#home-header:hover span {
+padding-right: 25px;
+}
+
+#home-header:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+#como-usar {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FF914D;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+#como-usar span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+#como-usar span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+#como-usar:hover span {
+padding-right: 20px;
+}
+
+#como-usar:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 650px){
+    .box-como-usar{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content:center;
+        margin-left: 30px;
+    }
+    #span-abra-conta {
+        display: none;
+        grid-column: none;
+    }
+    #header-home {
+        display: none;
+        grid-column: none;
+    }
+
+    header input{
+        display: none;
+    }
+
+    .botoes-header{
+        display: none;
+    }
+}
+
+/*
+*
+*   Responsividade < 1000px
+*
+*/
+
+@media screen and (max-width: 1000px){
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ico-cadeado {
+        display: none;
+    }
+    #span-abra-conta {
+        display: none;
+    }
+    header input[type=number], header [type=password] {
+        width: 12%;
+        margin-left: -25px;
+    }
+}

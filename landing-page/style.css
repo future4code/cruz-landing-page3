@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;    
+}
+
+/*
+
+    Sessão de taxa 0
+
+*/
+.circle-small {
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FF914D;
+    bottom: 170px;
+    z-index: -1;
+}
+.circle-large {
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #FF914D;
+    top: 100px;
+    left: 400px;
+    z-index: -1;
+}
+#taxas {
+    position: relative;
+    box-sizing: border-box;
+    height: 80vh;
+    padding: 100px;
+    background-image: url('./img/money-grow.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    z-index: -2;
+}
+#taxas h2 {
+    color: #FF914D;
+    font-size: 50px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+#taxas p {
+    width: 600px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 55px;
+    font-family: 'Lora', serif;
+}
+
+/*
+
+    Footer
+
+*/
+footer {
+    background-color: #202020;
+    color: white;
+}
+/*
+    Container do contato
+*/
+#contato {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+#contato h5{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#contato li{
+    margin: 10px;
+    font-size: 20px;
+}
+#contato li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+#contato li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+/*
+    Container das redes socias
+*/
+
+#redes-sociais{
+    display: flex;
+    padding: 20px 200px;
+    justify-content: space-around;
+    text-align: center;
+}
+#redes-sociais h5 {
+    font-size: 25px;
+    padding: 25px;
+}
+#redes-sociais img {
+    height: 40px;
+    margin: 5px;
+}
+/*
+    Container dos créditos
+*/
+#creditos{
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px 10px 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#creditos span{
+    color: red;
+    margin: 0px 5px;
+}
+
+/*
+
+    Sessão Quem somos
+
+*/
+#quem-somos span {
+    color: #FF914D;
+}
+#quem-somos{
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#quem-somos h2 {
+    color: #FF914D;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+#quem-somos p {
+    font-size: 15px;
+    margin: 5px;
+}
+#quem-somos h3 {
+    font-size: 40px;
+    margin: 5px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+#quem-somos img {
+    border-radius: 90px;
+    height: 90px;
+    padding: 20px;
+}
+
+#comentarios div {
+    max-width: 250px;
+    margin: 35px;
+    padding: 20px;
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#quem-somos .div1 {
+    border: 1px solid #FF914D;
+    box-shadow: 8px 3px 3px grey;   
+    border-radius: 10px; 
+    align-items: center;
+    text-align: center;
+}
+
+#quem-somos .div1 h3 {
+    font-size: 18px;
+    color: #FF914D;
+    padding: 10px;
+}
+
+/*
+*
+*   Responsividade < 1000px
+*
+*/
+@media screen and (max-width: 1000px){
+    #quem-somos h2 {
+        font-size: 25px;
+    }
+    #redes-sociais{
+        flex-direction: column;
+        padding: 0px;
+    }
+    #contato{
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+    }
+    #contato h5{
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+    .circle-small {
+        display: none;
+    }
+    .circle-large {
+        display: none;
+    }
+    #taxas {
+        text-align: center;
+        padding: 20px;
+        height: 70vh;
+        background-image: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    #taxas h2 {
+        padding: 30px;
+        font-size: 40px;
+    }
+    #taxas p {
+        font-size: 30px;
+    }
+}
+
+/*
+*
+*   Responsividade < 650px
+*
+*/
+@media screen and (max-width: 650px){
+    #quem-somos h2 {
+        font-size: 20px;
+    }
+    #quem-somos h3 {
+        font-size: 20px;
+    }
+    #taxas {
+        height: 50vh;
+    }
+    #taxas h2 {
+        padding: 25px;
+        font-size: 20px;
+    }
+    #taxas p {
+        width: 100%;
+        font-size: 15px;
+        margin: 0px;
+    }
+    #creditos{
+        font-size: 15px;
+    }
+}
